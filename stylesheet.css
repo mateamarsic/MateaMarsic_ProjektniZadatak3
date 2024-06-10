@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'MateaMarsic';
+    src: url('font/MateaMarsic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.naslovi h1 {
+    font-family: 'MateaMarsic';
+    font-size: 500%;
+    text-align: center;
+    color: rebeccapurple;
+    
+}
+
+.naslovi h2 {
+    font-family: 'Poppins';
+    text-align: center;
+	margin-left:200px;
+	margin-right:200px;
+    color: white;
+    background-color: mediumpurple;
+}
+
+.naslovi h3 {
+    font-family: 'Poppins';
+    text-align: center;
+    color: black;
+}	
+.naslovi h4 {
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+body {
+    background-image: url('slike/pozadina.jpg'); 
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins';
+    font-size: 16px; 
+    
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
+video.center {
+
+    display: block;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    align-items: center;
+    }
+
+.text {
+    text-align: center;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+ul {
+	display:inline;
+	align-items: center;
+}
+
+li:hover {
+		 background: #2C1A46;
+		}
